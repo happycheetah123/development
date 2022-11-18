@@ -1,0 +1,80 @@
+[
+    {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "price": 7.99,
+      "image": "images/ceedee.png"
+    },
+    {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "price": 4.99,
+      "image": "images/chef.png"
+    },
+    {
+      "name": "Christian McCafferey",
+      "position": "RB",
+      "price": 2.99,
+      "image": "images/cmc.png"
+    },
+    {
+      "name": "Darren Waller",
+      "position": "TE",
+      "price": 5.99,
+      "image": "images/darren.png"
+    },
+    {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "price": 3.99,
+      "image": "images/diggs.png"
+    },
+    {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "price": 4.99,
+      "image": "images/ekeler.png"
+    },
+    {
+      "name": "Jameis Winston",
+      "position": "QB",
+      "price": 4.99,
+      "image": "images/jameis.png"
+    },
+    {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "price": 2.99,
+      "image": "images/jj.png"
+    },
+    {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "price": 1.99,
+      "image": "images/kelce.png"
+    },
+    {
+      "name": "George Kittle",
+      "position": "TE",
+      "price": 3.99,
+      "image": "images/kittle.png"
+    },
+    {
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "price": 2.99,
+      "image": "images/kirk.png"
+    },
+    {
+      "name": "Tom Brady",
+      "position": "QB",
+      "price": 2.99,
+      "image": "images/tom.png"
+    },
+    {
+      "name": "Gingerbread Man",
+      "position": "A soft gingerbread cookie with a sweet icing glaze",
+      "price": 2.99,
+      "image": "images/kirko.webp"
+    }
+  ]
