@@ -35,6 +35,18 @@ function App() {
     <div className="App">
       <Navigation onSelect={selectFilterType}></Navigation>
       <header className="App-header">
+        <div>
+            <h1>Players</h1> {/* TODO: personalize your bakery (if you want) */}
+              <div className='PlayerData'>
+                {playerData.map((item, index) => ( // Map playerData to PlayerItem components
+                  <PlayerItem name={item.name} position={item.position} price={item.price}
+                              image={item.image}>
+                  </PlayerItem>
+
+                ))}
+            </div>
+
+        </div>
       </header>
       <body>
 

@@ -70,11 +70,5 @@
       "position": "QB",
       "price": 2.99,
       "image": "images/tom.png"
-    },
-    {
-      "name": "Gingerbread Man",
-      "position": "A soft gingerbread cookie with a sweet icing glaze",
-      "price": 2.99,
-      "image": "images/kirko.webp"
     }
   ]
