@@ -6,32 +6,50 @@ import React from "react";
 
 
 
-function Navigation() {
-  return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">Fantasy Football Pick'em</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  );
+class Navigation extends React.Component {
+    render() {
+    const selectPosition = this.props.selectPosition;
+    const selectAllpro = this.props.selectAllpro;
+    const sortPrice = this.props.sortPrice
+    return (
+        <Navbar bg="light" expand="lg">
+          <Container>
+            <Navbar.Brand href="#home">Fantasy Football Pick'em</Navbar.Brand>
+                <div className='NavButtons'>
+                    <div className='positionFilters'>
+                        <Nav className="me-auto" onSelect={selectPosition}>
+                            <Nav.Item><Nav.Link eventKey="All">All</Nav.Link></Nav.Item>
+                        </Nav>
+                        <Nav className="me-auto" onSelect={selectPosition}>
+                            <Nav.Item><Nav.Link eventKey="QB">QB</Nav.Link></Nav.Item>
+                        </Nav>
+                        <Nav className="me-auto" onSelect={selectPosition}>
+                            <Nav.Item><Nav.Link eventKey="RB">RB</Nav.Link></Nav.Item>
+                        </Nav>
+                        <Nav className="me-auto" onSelect={selectPosition}>
+                            <Nav.Item><Nav.Link eventKey="WR">WR</Nav.Link></Nav.Item>
+                        </Nav>
+                    </div>
+                    <div className='AllProFilters'>
+                        <Nav className="me-auto" onSelect={selectAllpro}>
+                            <Nav.Item><Nav.Link eventKey="Yes">All-Pro</Nav.Link></Nav.Item>
+                        </Nav>
+                        <Nav className="me-auto" onSelect={selectAllpro}>
+                            <Nav.Item><Nav.Link eventKey="All">All-Pro Off</Nav.Link></Nav.Item>
+                        </Nav>
+                    </div>
+                    <div className='sortButton'>
+                        <Nav className="me-auto" onSelect={sortPrice}>
+                            <Nav.Item><Nav.Link eventKey="On">Sort by Price</Nav.Link></Nav.Item>
+                        </Nav>
+                    </div>
+                </div>
+              {/* TODO: add square button here */}
+          </Container>
+        </Navbar>
+      );
+    }
+
 }
 
 export default Navigation;

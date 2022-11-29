@@ -2,73 +2,85 @@
     {
       "name": "CeeDee Lamb",
       "position": "WR",
-      "price": 7.99,
-      "image": "images/ceedee.png"
+      "price": 10,
+      "image": "images/ceedee.png",
+      "allpro": "No"
     },
     {
       "name": "Dalvin Cook",
       "position": "RB",
-      "price": 4.99,
-      "image": "images/chef.png"
+      "price": 12,
+      "image": "images/chef.png",
+      "allpro": "Yes"
     },
     {
       "name": "Christian McCafferey",
       "position": "RB",
-      "price": 2.99,
-      "image": "images/cmc.png"
+      "price": 11,
+      "image": "images/cmc.png",
+      "allpro": "No"
     },
     {
       "name": "Darren Waller",
       "position": "TE",
-      "price": 5.99,
-      "image": "images/darren.png"
+      "price": 4,
+      "image": "images/darren.png",
+      "allpro": "No"
     },
     {
       "name": "Stefon Diggs",
       "position": "WR",
-      "price": 3.99,
-      "image": "images/diggs.png"
+      "price": 16,
+      "image": "images/diggs.png",
+      "allpro": "Yes"
     },
     {
       "name": "Austin Ekeler",
       "position": "RB",
-      "price": 4.99,
-      "image": "images/ekeler.png"
+      "price": 12,
+      "image": "images/ekeler.png",
+      "allpro": "No"
     },
     {
       "name": "Jameis Winston",
       "position": "QB",
-      "price": 4.99,
-      "image": "images/jameis.png"
+      "price": 2,
+      "image": "images/jameis.png",
+      "allpro": "No"
     },
     {
       "name": "Justin Jefferson",
       "position": "WR",
-      "price": 2.99,
-      "image": "images/jj.png"
+      "price": 18,
+      "image": "images/jj.png",
+      "allpro": "Yes"
     },
     {
       "name": "Travis Kelce",
       "position": "TE",
-      "price": 1.99,
-      "image": "images/kelce.png"
+      "price": 10,
+      "image": "images/kelce.png",
+      "allpro": "Yes"
     },
     {
       "name": "George Kittle",
       "position": "TE",
-      "price": 3.99,
-      "image": "images/kittle.png"
+      "price": 7,
+      "image": "images/kittle.png",
+      "allpro": "No"
     },
     {
       "name": "Kirk Cousins",
       "position": "QB",
-      "price": 2.99,
-      "image": "images/kirk.png"
+      "price": 6,
+      "image": "images/kirk.png",
+      "allpro": "No"
     },
     {
       "name": "Tom Brady",
       "position": "QB",
-      "price": 2.99,
-      "image": "images/tom.png"
+      "price": 4,
+      "image": "images/tom.png",
+      "allpro": "Yes"
     }
   ]
