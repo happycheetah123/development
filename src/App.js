@@ -100,7 +100,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-            <h1>Players</h1> {/* TODO: personalize your bakery (if you want) */}
+            <h1>Fantasy Football Pick'em</h1> {/* TODO: personalize your bakery (if you want) */}
 
         </div>
       </header>

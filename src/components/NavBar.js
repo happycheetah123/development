@@ -14,7 +14,7 @@ class Navigation extends React.Component {
     return (
         <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">Fantasy Football Pick'em</Navbar.Brand>
+            <Navbar.Brand href="#home">Filters</Navbar.Brand>
                 <div className='NavButtons'>
                     <div className='positionFilters'>
                         <Nav className="me-auto" onSelect={selectPosition}>

@@ -14,4 +14,4 @@ The application is made up of two components: PlayerItem and NavBar. The NavBar 
 Data is passed down through components by the use of props. For example, the PlayerItem component has a prop for inInCart, and depending on its value it will show a different button in the application. Other props such as "addToTotal" trigger event keys when their respective button is clicked, which corresponds to functions in the app.
 
 ### How the User Triggers State Changes
-The users trigger state changes any time the position, allpro, sort, cart, total, and/or price variables are changed. Changing any of the filters causes a state change. For example, clicking a specific position i.e. "WR" will change the state of the data by filtering it down to only wide receivers. 
+The users trigger state changes any time the position, allpro, sort, cart, total, and/or price variables are changed. Changing any of the filters/sorting methods cause state changes. For example, clicking a specific position i.e. "WR" will change the state of the data by filtering it down to only wide receivers. Additionally, adding or removing players to the aggregator triggers state changes.
