@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+If you used the stencil code, this is `https://happycheetah123.github.io/development/`
 
 ### Goal and Value of the Application
 The goal and value of the application is for users to be able to select from a dashboard of NFL players to add to their fantasy football wishlist. Qualities such as allpro and price affect the value of each player. Users can narrow down their player search by position i.e. "All", "QB", "RB", or "WR". Further, users can turn "All-Pro" on or off. Lastly, users can sort by price. 
